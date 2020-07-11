@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="innerwork">InnerWork</string>
+    <string name="job_details">Job Details</string>
+    <string name="job_title">Digital Marketing</string>
+    <string name="company_name">InnerWork Solutions</string>
+    <string name="jobtype_Field">Internship</string>
+    <string name="Stipend_type">Unpaid</string>
+    <string name="Candidate_type">MBA Fresher</string>
+    <string name="posted_on_time">Posted on 2020-07-10 10:42:25</string>
+    <string name="details_heading">Details</string>
+    <string name="about_company">About Company :</string>
+    <string name="Contact_name">Sheela Jha :</string>
+    <string name="contact_phone_number">1234567899</string>
+    <string name="company_email">internship@innerworkindia.com</string>
+    <string name="internship_description">Internship Description :</string>
+    <string name="internship_full_description">Innerwork provides full-range human resources and IT solutions to help businesses improve hiring and digital infrastructure for the effective functioning of the company. Founded with a purpose to find the right balance of quality hiring and smooth on-boar</string>
+    <string name="eduRequirement_heading">Education Requirements :</string>
+    <string name="edu_requirement_description">MBA Fresher</string>
+    <string name="skills_required_heading">Skills Required :</string>
+    <string name="java_etc">JAVA, ETC</string>
+    <string name="stipend">Stipend : Unpaid</string>
+    <string name="apply_online">Apply Online</string>
+    <string name="personal_information_label">Personal Information</string>
+    <string name="name_of_the_candidate">NAME OF THE CANDIDATE</string>
+    <string name="email">EMAIL</string>
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="other">OTHER</string>
+    <string name="career_information_label">Career Information</string>
+    <string name="qualification_label">QUALIFICATION</string>
+    <string name="enter_skills_label">ENTER SKILLS</string>
+    <string name="enter_interests_label">ENTER INTERESTS</string>
+    <string name="upload_resume">UPLOAD RESUME</string>
+
+    <string-array name="experience_spinnerArray">
+        <item>0–1 Year</item>
+        <item>1–2 Year</item>
+        <item>2–3 Year</item>
+        <item>3–4 Year</item>
+        <item>4–5 Year</item>
+        <item>Others Year</item>
+    </string-array>
+
+</resources>
