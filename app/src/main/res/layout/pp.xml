@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/about_us"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="391dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nature of Business" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:clickable="true"
+        android:text="@string/permanent"
+        android:textColor="@color/black" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:clickable="true"
+        android:text="@string/contract"
+        android:textColor="@color/black" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:clickable="true"
+        android:text="@string/both"
+        android:textColor="@color/black" />
+
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
