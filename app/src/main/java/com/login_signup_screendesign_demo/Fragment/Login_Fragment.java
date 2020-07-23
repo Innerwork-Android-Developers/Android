@@ -62,7 +62,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 			Bundle savedInstanceState) {
 		view = inflater.inflate(R.layout.login_layout, container, false);
 		retrofit = new Retrofit.Builder()
-				.baseUrl("https://www.innerworkindia.com/android/")
+				.baseUrl("https://www.innerworkindia.com/")
 				.addConverterFactory(GsonConverterFactory.create())
 				.build();
 		loginApi = retrofit.create(LoginApi.class);

@@ -50,7 +50,7 @@ public class ForgotPassword_Fragment extends Fragment implements
 		view = inflater.inflate(R.layout.forgotpassword_layout, container,
 				false);
 		retrofit = new Retrofit.Builder()
-				.baseUrl("https://www.innerworkindia.com/android/")
+				.baseUrl("https://www.innerworkindia.com/")
 				.addConverterFactory(GsonConverterFactory.create())
 				.build();
 		loginApi = retrofit.create(LoginApi.class);
